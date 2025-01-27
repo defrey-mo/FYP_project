@@ -1,9 +1,22 @@
 table{
   width: 100%;
   text-align: left;
+  overflow-y: scroll;
 }
 
 th, td{
-  padding: 12px;
+  padding: 20px;
   background-color: white;
+}
+th {
+  position: sticky;
+  top: 0;
+  background: #f1f1f1;  
+  z-index: 10;          
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+table, td {
+  border: none;  
+  border-collapse: collapse; 
 }
