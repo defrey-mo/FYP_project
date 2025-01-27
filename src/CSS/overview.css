@@ -1,0 +1,9 @@
+table{
+  width: 100%;
+  text-align: left;
+}
+
+th, td{
+  padding: 12px;
+  background-color: white;
+}
