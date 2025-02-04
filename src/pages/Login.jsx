@@ -1,5 +1,6 @@
 import React from 'react'
 import '../CSS/login.css'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -20,7 +21,7 @@ export default function Login() {
                 <label for="check">Remember me</label>
             </section>
             <section>
-                <a href="#">Forgot password</a>
+                <Link>Forgot password</Link>
             </section>
         </div>
         <div class="input-submit">

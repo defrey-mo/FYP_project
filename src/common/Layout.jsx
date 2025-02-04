@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import { Outlet } from "react-router-dom";
 
 export default function Layout({appTitle,activePage}) {
