@@ -30,9 +30,9 @@ export default function Navbar() {
           </button>
         {/* </form> */}
         <div className="header-right">
-          <span className="material-icons-outlined">notifications</span>
-          <span className="material-icons-outlined" style={{marginLeft:'15px'}}>email</span>
-          {/* <span className="material-icons-outlined" style={{marginLeft:'15px'}}>account_circle</span> */}
+          <span>John Doe High School</span>
+          <span className="material-icons-outlined">account_circle</span>
+          
         </div>
       </div>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../common/Sidebar";
-import Navbar from "../common/navbar";
+import Navbar from "../common/Navbar";
 import Chart from "react-apexcharts";
 
 export default function Dashboard({ setActivePage }) {
@@ -77,9 +77,9 @@ export default function Dashboard({ setActivePage }) {
   
   return (
     <>
-      <div className="main-title">
+      {/* <div className="main-title">
         <p className="font-weight-bold">DASHBOARD</p>
-      </div>
+      </div> */}
       {/* cards */}
       <div class="main-cards">
         {cardsData.map((item, index) => {
