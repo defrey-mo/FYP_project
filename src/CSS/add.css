@@ -84,7 +84,7 @@ button:hover{
 } */
 .main-form {
   font-size: 12px;
-  margin-top: 20px;
+  margin-top: 15px;
   border: 2px solid black;
   border: none;
   width: 100%;
@@ -103,6 +103,14 @@ button:hover{
   margin-top: 50px;
   justify-content: space-between;
   display: flex;
+}
+
+.registering-buttons button{
+  height: 30px;
+}
+
+.registering-buttons button .save{
+  background-color: #4CAF50;
 }
 
 /* legend {
@@ -274,4 +282,16 @@ select {
 
 .form form section fieldset span textarea{
   outline: none;
+}
+
+.form form aside fieldset legend{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form form section fieldset legend{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
 }

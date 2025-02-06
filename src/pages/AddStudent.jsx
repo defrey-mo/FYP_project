@@ -25,7 +25,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                 </span>
 
                 <span>
-                  <label for="first-name">FirstName:</label>
+                  <label for="first-name">FirstName</label>
                   <input
                     type="text"
                     name="first-name"
@@ -35,7 +35,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                 </span>
 
                 <span>
-                  <label for="middle-name">Middle Name:</label>
+                  <label for="middle-name">Middle Name</label>
                   <input type="text" name="middle-name" id="middle-name" />
                 </span>
 
@@ -45,7 +45,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                 </span>
 
                 <span>
-                  <label for="dob">Date of Birth:</label>
+                  <label for="dob">Date of Birth</label>
                   <input
                     type="date"
                     name="dob"
@@ -56,7 +56,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                 </span>
 
                 <span>
-                  <label for="gender">Gender:</label>
+                  <label for="gender">Gender</label>
                   <select name="gender" id="gender">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
@@ -108,7 +108,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                     />
                   </span>
                 <span>
-                  <label for="phone-number">Phone Number:</label>
+                  <label for="phone-number">Phone Number</label>
                   <input
                     type="tel"
                     name="phone"
@@ -118,12 +118,12 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                   />
                 </span>
                 <span>
-                  <label for="email">Email :</label>
+                  <label for="email">Email </label>
                   <input type="email" name="email" id="email" required />
                 </span>
 
                 <span>
-                  <label for="address">Home Address:</label>
+                  <label for="address">Home Address</label>
                   <textarea name="address" id="address" rows="4" required></textarea>
                 </span>
                 
@@ -131,7 +131,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                   <legend>Previous school if any</legend>
 
                   <span>
-                    <label for="emergency-name">School Name:</label>
+                    <label for="emergency-name">School Name</label>
                     <input
                       type="text"
                       name="emergency-name"
@@ -142,7 +142,7 @@ export default function AddStudent({ setAppTitle, setActivePage }) {
                 </fieldset>
                 <div className="registering-buttons">
                 <div><button>Clear</button></div>
-                <div><button>Save</button></div>
+                <div  className="save"><button>Save</button></div>
                 </div>
               </fieldset>
             </aside>

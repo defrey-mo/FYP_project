@@ -11,28 +11,35 @@ export default function CheckStudent({ setActivePage }) {
         <form class="checking-form" action="">
           <div class="form-group">
             <label for="Reg-no" class="label-check">
-              Registration Number:
+             Student Number
             </label>
-            <input type="text" name="regno" id="regno" style={{marginLeft:'37px'}}/>
+            <input type="text" name="regno" id="regno" />
           </div>
           <div class="form-group">
             <label for="Reg-no" class="label-check">
-              Full Names:
+              First Names
             </label>
-            <input type="text" name="regno" id="regno" style={{marginLeft:'107px'}}/>
+            <input type="text" name="regno" id="regno" />
           </div>
           <div class="form-group">
             <label for="Reg-no" class="label-check">
-              School Name:
+              Middle Names
             </label>
-            <input type="text" name="regno" id="regno" style={{marginLeft:'90px'}} />
+            <input type="text" name="regno" id="regno" />
           </div>
           <div class="form-group">
             <label for="Reg-no" class="label-check">
-              Fingerprint:
+              Last Names
             </label>
-            <input type="text" name="regno" id="regno" style={{marginLeft:'105px'}} />
+            <input type="text" name="regno" id="regno" />
           </div>
+          <div class="form-group">
+            <label for="Reg-no" class="label-check">
+              School Name
+            </label>
+            <input type="text" name="regno" id="regno" />
+          </div>
+          
         </form>
         <button class="button-for-submit">Submit</button>
       </div>
